@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
+    public GameObject left_door;
+    public GameObject main_door;
     // Start is called before the first frame update
     void Start()
     {
