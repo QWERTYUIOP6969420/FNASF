@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 109395520}
   - component: {fileID: 109395522}
   - component: {fileID: 109395521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2203,7 @@ GameObject:
   - component: {fileID: 1052621083}
   - component: {fileID: 1052621082}
   - component: {fileID: 1052621081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Elec Key 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2583,7 +2583,7 @@ GameObject:
   - component: {fileID: 1138141390}
   - component: {fileID: 1138141396}
   - component: {fileID: 1138141397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Elec Key 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4811,7 +4811,7 @@ GameObject:
   - component: {fileID: 2084086591}
   - component: {fileID: 2084086593}
   - component: {fileID: 2084086592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
