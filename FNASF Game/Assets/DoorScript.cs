@@ -14,6 +14,8 @@ public class DoorScript : MonoBehaviour
 
     public bool is_front_door_shut;
     public bool is_left_door_shut;
+
+    public int[] electricity_button_list = new int[6];
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +30,9 @@ public class DoorScript : MonoBehaviour
                 StartCoroutine(ShutLeftDoor());
             } else if(Physics.Raycast(door_control, out door_shut, left_door_button) && door_shut.transform.gameObject.layer == 7 && is_left_door_shut == true){
                 StartCoroutine(OpenLeftDoor());
+            } 
+            if(Physics.Raycast(door_control, out door_shut, left_door_button) && door_shut.transform.gameObject.layer == 8){
+                
             }
         }
     }
